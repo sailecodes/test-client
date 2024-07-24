@@ -104,4 +104,4 @@ this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names`):s
         dummy_attr
       }
     }
-  `),r=async()=>{const i=await vE.get("/test");console.log(i.data)};return!e&&!t&&n&&console.log(n),yo.jsx("button",{onClick:r,children:"REST Button"})}const l_=new rm({uri:"https://saile-test-server.up.railway.app/graphql",cache:new em,credentials:"include"});za.createRoot(document.getElementById("root")).render(yo.jsx(Dm.StrictMode,{children:yo.jsx(Bk,{client:l_,children:yo.jsx(u_,{})})}))});export default c_();
+  `),r=async()=>{const i=await vE.get("/test");console.log(i.data)};return!e&&!t&&n&&console.log(n),yo.jsx("button",{onClick:r,children:"REST Button"})}const l_=new rm({uri:"https://saile-test-server.up.railway.app",cache:new em,credentials:"include"});za.createRoot(document.getElementById("root")).render(yo.jsx(Dm.StrictMode,{children:yo.jsx(Bk,{client:l_,children:yo.jsx(u_,{})})}))});export default c_();
