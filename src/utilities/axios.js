@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosc = axios.create({
-  baseURL: "/api/v1",
+  baseURL: "https://saile-test-server.up.railway.app/api/v1",
 });
 
 export default axiosc;
