@@ -104,4 +104,4 @@ this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names`):s
           dummy_attr
         }
       }
-    `,{onCompleted:t=>{console.log("Query successful"),console.log(t)}});const e=async()=>{const t=await vE.get("/test");console.log(t.data)};return er.jsx(er.Fragment,{children:er.jsx("button",{onClick:e,children:"REST Button"})})}const l_=new rm({uri:"https://saile-test-server.up.railway.app",cache:new em,credentials:"include"});za.createRoot(document.getElementById("root")).render(er.jsx(Dm.StrictMode,{children:er.jsx(Bk,{client:l_,children:er.jsx(u_,{})})}))});export default c_();
+    `,{onCompleted:t=>{console.log("Query successful"),console.log(t)}});const e=async()=>{const t=await vE.get("/test");console.log(t.data)};return er.jsx(er.Fragment,{children:er.jsx("button",{onClick:e,children:"REST Button"})})}const l_=new rm({uri:"http://localhost:5200",cache:new em,credentials:"include"});za.createRoot(document.getElementById("root")).render(er.jsx(Dm.StrictMode,{children:er.jsx(Bk,{client:l_,children:er.jsx(u_,{})})}))});export default c_();
